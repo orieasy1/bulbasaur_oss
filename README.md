@@ -51,6 +51,10 @@ The MVP is done when:
 - Note names
 - Pause
 
+### Out of Scope
+
+Online deployment, accounts and ranking, MIDI editing, audio-to-MIDI conversion, mobile support, and AI features.  
+
 ## Getting Started
 
 Not available yet. Once the app is ready, you will run npm install, then npm run dev, and open the browser.
