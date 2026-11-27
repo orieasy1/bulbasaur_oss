@@ -1,1 +1,12 @@
+## License
 
+This project is licensed under the MIT License.
+
+Why we chose MIT:
+
+- It is short and simple, so it is easy to understand.
+- It lets anyone use, copy, and change the code, as long as the license notice stays.
+- The code libraries we use (@tonejs/midi, Tone.js, PixiJS, Vitest, Vite) are also MIT, so the licenses fit well together.
+
+Some non-code materials, such as the piano samples and sample songs, have their own licenses.
+See [Third-Party Materials](#third-party-materials) for sources and license details.
