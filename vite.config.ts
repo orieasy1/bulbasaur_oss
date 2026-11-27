@@ -1,9 +1,14 @@
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vitest/config';
 
-// https://vite.dev/config/
 export default defineConfig({
-  devtools: {
-    // Remove this `apply` property to enable devtools for build as well
-    apply: 'serve',
+  server: {
+    host: 'localhost',
+    port: 5173,
+    strictPort: true,
   },
-})
+
+  test: {
+    environment: 'node',
+    include: ['tests/**/*.test.ts'],
+  },
+});
