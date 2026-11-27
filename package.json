@@ -1,0 +1,26 @@
+{
+  "name": "bulbasaur_oss",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@vitejs/devtools": "^0.8.3",
+    "@vitejs/devtools-rolldown": "^0.8.3",
+    "@vitejs/devtools-vite": "^0.8.3",
+    "typescript": "~7.0.2",
+    "vite": "^8.4.0",
+    "vitest": "^5.1.2"
+  },
+  "dependencies": {
+    "@tonejs/midi": "^2.0.28",
+    "tone": "^15.1.22"
+  }
+}

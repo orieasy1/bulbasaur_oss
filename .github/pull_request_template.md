@@ -1,67 +1,84 @@
-## ✅ 풀\_리퀘스트 체크리스트
+## ✅ Pull Request Checklist
 
 <!--
-하나씩 확인 후 체크박스에 표시해주세요.
-작성 규칙은 CONTRIBUTING.md를 참고해주세요.
+Check each item after completing it.
+Refer to CONTRIBUTING.md for the contribution guidelines.
 -->
 
-- [x] PR 제목: [Feature/Fix/Refactor...] 작업 내용 한 줄 요약 (브랜치 이름) #이슈번호
-- [ ] commit message 가 규칙(`유형: 내용 (#이슈번호)`)에 맞는지 확인해주세요.
-- [ ] main 브랜치로 요청했는지 확인해주세요.
-- [ ] 로컬에서 테스트를 모두 통과했는지 확인해주세요.
-- [ ] Assignees, Label 을 붙여주세요.
-- [ ] 이번 주 리뷰 순번 팀원을 Reviewer 로 등록해주세요.
-- [ ] 아래 AI 사용 내역을 작성해주세요. (사용하지 않았다면 None)
+- [x] PR title: [Feature/Fix/Refactor...] Brief description (branch name) #IssueNumber
+- [ ] Confirm that commit messages follow the convention (`type: description (#IssueNumber)`).
+- [ ] Confirm that the pull request targets the `main` branch.
+- [ ] Confirm that all tests pass locally.
+- [ ] Add appropriate assignees and labels.
+- [ ] Assign the team member scheduled for this week's review as a reviewer.
+- [ ] Complete the AI Usage section below. (Enter None if no AI tools were used.)
 
 <br/>
 
-## 🔄 변경 사항
+## 🔄 Changes
 
-<!-- 해당 pr에서 작업한 내역을 적어주세요. 처음엔 간단하게 요약, list 형식으로 세부사항 작성 -->
+<!--
+Describe the changes made in this pull request.
+Start with a brief summary, followed by a list of specific changes.
+-->
 
-무엇을 합니다!
+Briefly summarize what this PR does.
 
-- 이 일을 했다!
-- 이 일도 했다!
-
-<br/>
-
-## 📎 변경한 이유
-
-- 이러한 이유 때문에 변경했습니다!
-- (다른 방법 대신 이 방법을 고른 이유가 있다면 적어주세요)
+- Change 1
+- Change 2
 
 <br/>
 
-<!-- 관련된 Issue Number 를 작성하세요! merge 이후 해당 이슈는 자동으로 close 되고 보드 카드도 Done으로 이동합니다. -->
+## 📎 Reason for Changes
+
+- Explain why these changes are necessary.
+- If applicable, explain why this approach was chosen over other alternatives.
+
+<br/>
+
+<!--
+Enter the related issue number below.
+After merging, the linked issue will automatically close,
+and its project board card will move to Done.
+-->
 
 closes #
 
-## 👨🏻‍💻 테스트 체크리스트
-
-<!-- 실행한 명령과 결과, 직접 확인한 동작을 적어주세요. -->
-
-- 이러한 테스트를 했어요!
-
-<br/>
-
-## 🤖 AI 사용 내역
-
-<!-- 사용하지 않았다면 AI assistance에 None만 적어 주세요. -->
-
-- AI assistance: (도구 이름 또는 None)
-- Task: (AI가 도와준 작업)
-- Human verification: (직접 확인하거나 실행한 것과 그 결과)
-- Decision: (수락/수정/거절한 내용과 이유)
-
-<br/>
-
-## 📌 변경 및 주의 사항
+## 👨🏻‍💻 Testing Checklist
 
 <!--
-변경사항 및 주의 사항이 있다면 적어주세요.
-다른 사람이 작성한 코드를 수정했다면 그 사람도 리뷰어로 등록해주세요.
-코드 리뷰 시 더 꼼꼼하게 확인 받고 싶은 부분이 있다면 적어주세요.
+Describe the commands you executed, their results,
+and any functionality you manually verified.
+-->
+
+- [ ] Test 1
+- [ ] Test 2
+
+<br/>
+
+## 🤖 AI Usage
+
+<!--
+If no AI tools were used, simply enter None under AI assistance.
+-->
+
+- **AI assistance:** (Tool name or None)
+- **Task:** (Tasks assisted by AI)
+- **Human verification:** (What you manually reviewed or tested, and the results)
+- **Decision:** (Which suggestions were accepted, modified, or rejected, and why)
+
+<br/>
+
+## 📌 Additional Notes and Considerations
+
+<!--
+Describe any additional changes or important considerations.
+
+If you modified code written by another team member,
+assign that person as an additional reviewer.
+
+Mention any specific areas that require closer attention
+during the code review.
 -->
 
 <br/>
