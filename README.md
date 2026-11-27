@@ -51,9 +51,6 @@ The MVP is done when:
 - Note names
 - Pause
 
-### Out of Scope
-
-Online deployment, accounts and ranking, MIDI editing, audio-to-MIDI conversion, mobile support, and AI features.  
 
 ## Getting Started
 
